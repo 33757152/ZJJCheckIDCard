@@ -13,6 +13,8 @@
 		892A17B71F41CB37003BE738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892A17B51F41CB37003BE738 /* Main.storyboard */; };
 		892A17B91F41CB37003BE738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892A17B81F41CB37003BE738 /* Assets.xcassets */; };
 		892A17BC1F41CB37003BE738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892A17BA1F41CB37003BE738 /* LaunchScreen.storyboard */; };
+		892A17C71F41CB81003BE738 /* ZJJResultDesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 892A17C61F41CB81003BE738 /* ZJJResultDesModel.m */; };
+		892A17CA1F41CB98003BE738 /* ZJJCalculateIDCardCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = 892A17C91F41CB98003BE738 /* ZJJCalculateIDCardCorrect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		892A17B81F41CB37003BE738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892A17BB1F41CB37003BE738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892A17BD1F41CB37003BE738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892A17C51F41CB81003BE738 /* ZJJResultDesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJResultDesModel.h; sourceTree = "<group>"; };
+		892A17C61F41CB81003BE738 /* ZJJResultDesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJResultDesModel.m; sourceTree = "<group>"; };
+		892A17C81F41CB98003BE738 /* ZJJCalculateIDCardCorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCalculateIDCardCorrect.h; sourceTree = "<group>"; };
+		892A17C91F41CB98003BE738 /* ZJJCalculateIDCardCorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCalculateIDCardCorrect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		892A17AB1F41CB37003BE738 /* ZJJCheckIDCard */ = {
 			isa = PBXGroup;
 			children = (
+				892A17C31F41CB60003BE738 /* Model */,
+				892A17C41F41CB60003BE738 /* Tool */,
 				892A17AF1F41CB37003BE738 /* AppDelegate.h */,
 				892A17B01F41CB37003BE738 /* AppDelegate.m */,
 				892A17B21F41CB37003BE738 /* ViewController.h */,
@@ -77,6 +85,24 @@
 				892A17AD1F41CB37003BE738 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		892A17C31F41CB60003BE738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				892A17C51F41CB81003BE738 /* ZJJResultDesModel.h */,
+				892A17C61F41CB81003BE738 /* ZJJResultDesModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		892A17C41F41CB60003BE738 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				892A17C81F41CB98003BE738 /* ZJJCalculateIDCardCorrect.h */,
+				892A17C91F41CB98003BE738 /* ZJJCalculateIDCardCorrect.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892A17C71F41CB81003BE738 /* ZJJResultDesModel.m in Sources */,
 				892A17B41F41CB37003BE738 /* ViewController.m in Sources */,
+				892A17CA1F41CB98003BE738 /* ZJJCalculateIDCardCorrect.m in Sources */,
 				892A17B11F41CB37003BE738 /* AppDelegate.m in Sources */,
 				892A17AE1F41CB37003BE738 /* main.m in Sources */,
 			);
@@ -314,6 +342,7 @@
 				892A17C21F41CB37003BE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
